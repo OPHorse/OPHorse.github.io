@@ -11,21 +11,87 @@
     <title>New tab</title>
   </head>
   <body>
-    <div class="surface">
-      <img src="./shinji.jpg" alt="" />
-      <main>
-        <h1>Shinji's froggo chair</h1>
-        <div id="searchbar">
-          <button>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-            <span class="visually-hidden">Search</span>
-          </button>
-          <input type="text" placeholder="Search the web" autofocus />
-        </div>
-        <div id="bookmarks">
-          <!-- Bookmarks will get inserted here! -->
-        </div>
-      </main>
+    <div class="container">
+      <div class="surface" id="newTab">
+        <img src="./shinji.jpg" alt="" onclick="switchDiv()">
+        <main>
+          <h1>Shinji's froggo chair</h1>
+          <div id="searchbar">
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <span class="visually-hidden">Search</span>
+            </button>
+            <input type="text" placeholder="Search the web" autofocus />
+          </div>
+          <div id="bookmarks">
+            <!-- Bookmarks will get inserted here! -->
+          </div>
+        </main>
+      </div>
+
+      <div class="surface" id="class">
+        <img src="./shinji alt.jpg" alt="" onclick="switchDiv()">
+        <main>
+          <h1 style="margin-bottom: 15px;">Shinji's froggo chair</h1>
+          <h2 style="margin-top: 0; font-size: 2em;">Online Class Schedule</h2>
+          <div id="bookmarks">
+            <div class="bookmark-group">
+              <h2>Time</h2>
+              <ul>
+                <li><a href="">0800 - 1000</a></li>
+                <li><a href="">1000 - 1200</a></li>
+                <li><a href="">1300 - 1600</a></li>
+                <li><a href="">1600 - 1800</a></li>
+              </ul>
+            </div>
+                <div class="bookmark-group">
+                  <h2>Monday</h2>
+                  <ul>
+                    <li><a href="">English</a></li>
+                    <li><a href="">AP</a></li>
+                    <li><a href="">Math</a></li>
+                    <li><a href="">ESP</a></li>
+                  </ul>
+                </div>
+                <div class="bookmark-group">
+                  <h2>Tuesday</h2>
+                  <ul>
+                    <li><a href="">Science</a></li>
+                    <li><a href="">MAPEH</a></li>
+                    <li><a href="">Filipino</a></li>
+                    <li><a href="">TLE</a></li>
+                  </ul>
+                </div>
+                <div class="bookmark-group">
+                  <h2>Wednesday</h2>
+                  <ul>
+                    <li><a href="">English</a></li>
+                    <li><a href="">AP</a></li>
+                    <li><a href="">Math</a></li>
+                    <li><a href="">ESP</a></li>
+                  </ul>
+                </div>
+                <div class="bookmark-group">
+                  <h2>Thursday</h2>
+                  <ul>
+                    <li><a href="">MAPEH</a></li>
+                    <li><a href="">TLE</a></li>
+                    <li><a href="">Filipino</a></li>
+                    <li><a href="">Science</a></li>
+                  </ul>
+                </div>
+                <div class="bookmark-group">
+                  <h2>Friday</h2>
+                  <ul>
+                    <li><a href="">Homeroom // Science</a></li>
+                    <li><a href="">ESP // Math</a></li>
+                    <li><a href="">English</a></li>
+                    <li><a href="">dsduhsaiduh</a></li>
+                  </ul>
+                </div>
+          </div>
+        </main>
+      </div>
     </div>
     <a id="yags-link" href="https://prettycoffee.github.io/yet-another-generic-startpage/">Created with YAGS</a>
   </body>

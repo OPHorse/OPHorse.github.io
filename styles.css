@@ -70,7 +70,6 @@ body {
   border-radius: var(--surface-borderRadius);
   overflow: hidden;
   border: var(--space-smallest) solid var(--color-primary-base);
-  box-shadow: var(--surface-shadow);
 }
 
 .surface > img {
@@ -78,6 +77,7 @@ body {
   width: var(--picture-size);
   object-fit: cover;
   display: var(--display-image);
+  cursor: pointer;
 }
 
 .surface > main {
@@ -221,4 +221,25 @@ a#yags-link:hover,
 a#yags-link:focus-visible {
   color: var(--color-fg-base);
   text-decoration: underline;
+}
+
+
+/* stuff i add */
+
+.container {
+  overflow: hidden;
+}
+
+.surface {
+  transition: all cubic-bezier(.22,.68,0,1.71) 500ms;
+  position: fixed;
+  top: 1vh;
+}
+
+#newTab {
+  z-index: 2;
+}
+
+#schedule {
+  z-index: 1;
 }
